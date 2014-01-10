@@ -31,7 +31,7 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
         </MemoryAreas>
-        <LocateLinkFile path="../../configuration/programdata/ola/arm-gcc-link.ld" type="0"/>
+        <LocateLinkFile path="e:/coide/configuration/programdata/ola/arm-gcc-link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
@@ -94,23 +94,23 @@
     <File name="images/button_on.c" path="images/button_on.c" type="1"/>
     <File name="FreeRTOS/Source/tasks.c" path="FreeRTOS/Source/tasks.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_dbgmcu.c" path="stm_lib/src/stm32f10x_dbgmcu.c" type="1"/>
-    <File name="src/stm32f10x_it.c" path="src/stm32f10x_it.c" type="1"/>
     <File name="src/stm3210c_eval_lcd.h" path="src/stm3210c_eval_lcd.h" type="1"/>
+    <File name="src/stm32f10x_it.c" path="src/stm32f10x_it.c" type="1"/>
     <File name="src" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_pwr.h" path="stm_lib/inc/stm32f10x_pwr.h" type="1"/>
     <File name="images/button_off.c" path="images/button_off.c" type="1"/>
-    <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_wwdg.c" path="stm_lib/src/stm32f10x_wwdg.c" type="1"/>
+    <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
     <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_dbgmcu.h" path="stm_lib/inc/stm32f10x_dbgmcu.h" type="1"/>
     <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_flash.h" path="stm_lib/inc/stm32f10x_flash.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_spi.h" path="stm_lib/inc/stm32f10x_spi.h" type="1"/>
     <File name="FreeRTOS/Source/include/portable.h" path="FreeRTOS/Source/include/portable.h" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_dma.h" path="stm_lib/inc/stm32f10x_dma.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_adc.c" path="stm_lib/src/stm32f10x_adc.c" type="1"/>
-    <File name="src/stm3210c_eval_lcd.c" path="src/stm3210c_eval_lcd.c" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_dma.h" path="stm_lib/inc/stm32f10x_dma.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_iwdg.h" path="stm_lib/inc/stm32f10x_iwdg.h" type="1"/>
+    <File name="src/stm3210c_eval_lcd.c" path="src/stm3210c_eval_lcd.c" type="1"/>
     <File name="images/off.c" path="images/off.c" type="1"/>
     <File name="FreeRTOS/Source/portable" path="" type="2"/>
     <File name="FreeRTOS/Source/croutine.c" path="FreeRTOS/Source/croutine.c" type="1"/>
@@ -121,8 +121,8 @@
     <File name="FreeRTOS/Source/include" path="" type="2"/>
     <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_usart.h" path="stm_lib/inc/stm32f10x_usart.h" type="1"/>
-    <File name="src/stm3210c_eval_ioe.c" path="src/stm3210c_eval_ioe.c" type="1"/>
     <File name="FreeRTOS/Source/include/task.h" path="FreeRTOS/Source/include/task.h" type="1"/>
+    <File name="src/stm3210c_eval_ioe.c" path="src/stm3210c_eval_ioe.c" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
     <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="GLCD/fonts.h" path="GLCD/fonts.h" type="1"/>
@@ -146,12 +146,12 @@
     <File name="src/FreeRTOSConfig.h" path="FreeRTOS/Source/FreeRTOSConfig.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_crc.c" path="stm_lib/src/stm32f10x_crc.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_i2c.c" path="stm_lib/src/stm32f10x_i2c.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_rtc.c" path="stm_lib/src/stm32f10x_rtc.c" type="1"/>
     <File name="FreeRTOS/Source/include/projdefs.h" path="FreeRTOS/Source/include/projdefs.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_rtc.c" path="stm_lib/src/stm32f10x_rtc.c" type="1"/>
     <File name="src/itoa.h" path="src/itoa.h" type="1"/>
     <File name="FreeRTOS/Source/queue.c" path="FreeRTOS/Source/queue.c" type="1"/>
-    <File name="FreeRTOS/Source/include/croutine.h" path="FreeRTOS/Source/include/croutine.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_tim.h" path="stm_lib/inc/stm32f10x_tim.h" type="1"/>
+    <File name="FreeRTOS/Source/include/croutine.h" path="FreeRTOS/Source/include/croutine.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="FreeRTOS/Source/include/mpu_wrappers.h" path="FreeRTOS/Source/include/mpu_wrappers.h" type="1"/>
     <File name="GLCD" path="" type="2"/>
@@ -163,15 +163,15 @@
     <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_dac.h" path="stm_lib/inc/stm32f10x_dac.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_dac.c" path="stm_lib/src/stm32f10x_dac.c" type="1"/>
     <File name="src/RTC.c" path="src/RTC.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_dac.c" path="stm_lib/src/stm32f10x_dac.c" type="1"/>
     <File name="cmsis/core_cm3.c" path="cmsis/core_cm3.c" type="1"/>
     <File name="GLCD/I2C_STM32.c" path="GLCD/I2C_STM32.c" type="1"/>
     <File name="FreeRTOS/Source/portable/GCC" path="" type="2"/>
     <File name="src/init_board.h" path="src/init_board.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
-    <File name="src/funkcje.c" path="src/funkcje.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
+    <File name="src/funkcje.c" path="src/funkcje.c" type="1"/>
     <File name="src/touch_panel.h" path="src/touch_panel.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
     <File name="FreeRTOS/Source" path="" type="2"/>
