@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F107VC -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\inz_wysw\src -I..\..\..\workspace\inz_wysw\FreeRTOS\Source -I..\..\..\workspace\inz_wysw\FreeRTOS\Source\include -I..\..\..\workspace\inz_wysw\cmsis_boot -I..\..\..\workspace\inz_wysw\cmsis -I..\..\..\workspace\inz_wysw -I..\..\..\workspace\inz_wysw\GLCD -I..\..\..\workspace -I..\..\..\workspace\inz_wysw\FreeRTOS\Source\portable -I..\..\..\workspace\inz_wysw\FreeRTOS\Source\portable\GCC -I..\..\..\workspace\inz_wysw\FreeRTOS\Source\portable\GCC\ARM_CM3 -I..\..\..\workspace\inz_wysw\stm_lib -I..\..\..\workspace\inz_wysw\FreeRTOS -I..\..\..\workspace\inz_wysw\stm_lib\inc">
+      <target file="stm32f10x_iwdg.o" lastModified="14379c78c8b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="142dcdb0845"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14379c7651b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141b8f7be4f"/>
+      </target>
+      <target file="syscalls.o" lastModified="14379c771e6">
+         <source file="..\..\..\src\syscalls.c" lastModified="141d28c4d3e"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14379c75b60">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="142b9227cf2"/>
+      </target>
+      <target file="misc.o" lastModified="14379c77c1d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="141b8f7d86b"/>
+      </target>
+      <target file="RTC.o" lastModified="14379c7860a">
+         <source file="..\..\..\src\RTC.c" lastModified="14379c52172"/>
+      </target>
+      <target file="stm32_eval.o" lastModified="14379c75507">
+         <source file="..\..\..\src\stm32_eval.c" lastModified="141d24efd8e"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14379c753cd">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141d25d3e98"/>
+      </target>
+      <target file="queue.o" lastModified="14379c7783b">
+         <source file="..\..\..\FreeRTOS\Source\queue.c" lastModified="141b8750210"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14379c76dc4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="141b8f7cd80"/>
+      </target>
+      <target file="stm32f10x_wwdg.o" lastModified="14379c78125">
+         <source file="..\..\..\stm_lib\src\stm32f10x_wwdg.c" lastModified="142dcdb0437"/>
+      </target>
+      <target file="GLCD_SPI_STM32.o" lastModified="14379c756d5">
+         <source file="..\..\..\GLCD\GLCD_SPI_STM32.c" lastModified="14373f738dc"/>
+      </target>
+      <target file="timers.o" lastModified="14379c75f78">
+         <source file="..\..\..\FreeRTOS\Source\timers.c" lastModified="141b8750210"/>
+      </target>
+      <target file="init_board.o" lastModified="14379c75064">
+         <source file="..\..\..\src\init_board.c" lastModified="14379b766a7"/>
+      </target>
+      <target file="button_on.o" lastModified="14379c76f4a">
+         <source file="..\..\..\images\button_on.c" lastModified="14345735d7f"/>
+      </target>
+      <target file="tasks.o" lastModified="14379c7671a">
+         <source file="..\..\..\FreeRTOS\Source\tasks.c" lastModified="142e14d802f"/>
+      </target>
+      <target file="stm3210c_eval_lcd.o" lastModified="14379c77fe0">
+         <source file="..\..\..\src\stm3210c_eval_lcd.c" lastModified="141b8b7c7d0"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="14379c77390">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142dcdaf29f"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14379c74f0e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="142dcdaf715"/>
+      </target>
+      <target file="stm32f10x_it.o" lastModified="14379c774e1">
+         <source file="..\..\..\src\stm32f10x_it.c" lastModified="14379c4648c"/>
+      </target>
+      <target file="TS_I2C.o" lastModified="14379c757b6">
+         <source file="..\..\..\GLCD\TS_I2C.c" lastModified="141d25232af"/>
+      </target>
+      <target file="on_off_button.o" lastModified="14379c761b4">
+         <source file="..\..\..\images\on_off_button.c" lastModified="14345747a07"/>
+      </target>
+      <target file="off.o" lastModified="14379c78811">
+         <source file="..\..\..\images\off.c" lastModified="1422c7e0a11"/>
+      </target>
+      <target file="croutine.o" lastModified="14379c77a61">
+         <source file="..\..\..\FreeRTOS\Source\croutine.c" lastModified="141b8750210"/>
+      </target>
+      <target file="touch_panel.o" lastModified="14379c775a9">
+         <source file="..\..\..\src\touch_panel.c" lastModified="14373114d8c"/>
+      </target>
+      <target file="itoa.o" lastModified="14379c77b1b">
+         <source file="..\..\..\src\itoa.c" lastModified="1316e2d3de0"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="14379c74bfe">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="142dcdb0b47"/>
+      </target>
+      <target file="list.o" lastModified="14379c77046">
+         <source file="..\..\..\FreeRTOS\Source\list.c" lastModified="141b8750210"/>
+      </target>
+      <target file="port.o" lastModified="14379c77693">
+         <source file="..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c" lastModified="141b8750210"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14379c76354">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141b8f7be6f"/>
+      </target>
+      <target file="stm32f10x_dac.o" lastModified="14379c75c83">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dac.c" lastModified="142dcdb0f5d"/>
+      </target>
+      <target file="core_cm3.o" lastModified="14379c75179">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="141b8f7a2bd"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="14379c75a04">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="142dcdb0bdd"/>
+      </target>
+      <target file="LCD.o" lastModified="14379c76bc7">
+         <source file="..\..\..\GLCD\LCD.c" lastModified="14379c73e5b"/>
+      </target>
+      <target file="funkcje.o" lastModified="14379c758e6">
+         <source file="..\..\..\src\funkcje.c" lastModified="1436dec4893"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="14379c768b3">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="142b98059d4"/>
+      </target>
+      <target file="I2C_STM32.o" lastModified="14379c78723">
+         <source file="..\..\..\GLCD\I2C_STM32.c" lastModified="141d25d64ef"/>
+      </target>
+      <target file="stm32f10x_dbgmcu.o" lastModified="14379c75298">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dbgmcu.c" lastModified="142dcdafd42"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="14379c78b94">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="142dcdb2ecd"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="14379c77972">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="142b8c41460"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="14379c76094">
+         <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="142dcdb32ef"/>
+      </target>
+      <target file="button_off.o" lastModified="14379c77d9b">
+         <source file="..\..\..\images\button_off.c" lastModified="143455f3029"/>
+      </target>
+      <target file="main.o" lastModified="14379c75e51">
+         <source file="..\..\..\src\main.c" lastModified="143794eab93"/>
+      </target>
+      <target file="startup_stm32f10x_cl.o" lastModified="14379c76406">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_cl.c" lastModified="142fac8e857"/>
+      </target>
+      <target file="heap_1.o" lastModified="14379c784f4">
+         <source file="..\..\..\FreeRTOS\Source\portable\MemMang\heap_1.c" lastModified="141b8750210"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="14379c7840f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="141d25de13f"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14379c78285">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1436dbf2a46"/>
+      </target>
+      <target file="stm3210c_eval_ioe.o" lastModified="14379c78a74">
+         <source file="..\..\..\src\stm3210c_eval_ioe.c" lastModified="141d24effac"/>
+      </target>
+   </processor>
+</history>
