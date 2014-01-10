@@ -1,0 +1,5 @@
+*.o
+FreeRTOS/Debug/
+logs/
+FreeRTOS/freertos.elf.xcodeproj/
+FreeRTOS/Licence
