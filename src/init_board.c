@@ -9,16 +9,11 @@
 #include "init_board.h"
 #include "RTC.h"
 
-//#define RTCClockOutput_Enable  /* RTC Clock/64 is output on tamper pin(PC.13) */
-
-//const long led_mask[] = { 1 << 15, 1 << 14, 1 << 13, 1 << 12, 1 << 11, 1 << 10, 1 << 9, 1 << 8 };
-
 ErrorStatus HSEStartUpStatus;
 void USART_Configuration(void);
 void prvSetupHardware(void) {
 	RCC_Conf();
-	//RCC_ClocksTypeDef* clock;
-	//RCC_GetClocksFreq(clock);
+
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); //wlacz taktowanie portu GPIO A
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); //wlacz taktowanie portu GPIO B
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); //wlacz taktowanie portu GPIO C
@@ -67,26 +62,6 @@ void ADC_Conf(void) {
 		;
 
 	ADC_SoftwareStartConvCmd(ADC1, ENABLE);
-
-}
-
-void SPI_Conf(void) {
-	//konfigurowanie interfejsu SPI
-	SPI_InitTypeDef SPI_InitStruct;
-
-	SPI_InitStruct.SPI_Direction = SPI_Direction_1Line_Rx; //transmisja z wykorzystaniem jednej linii, transmisja jednokierunkowa
-	SPI_InitStruct.SPI_Mode = SPI_Mode_Slave; //tryb pracy SPI
-	SPI_InitStruct.SPI_DataSize = SPI_DataSize_16b; //16-bit ramka danych
-	SPI_InitStruct.SPI_CPOL = SPI_CPOL_Low; //stan sygnalu taktujacego przy braku transmisji - niski
-	SPI_InitStruct.SPI_CPHA = SPI_CPHA_1Edge; //aktywne zbocze sygnalu taktujacego - 1-sze zbocze
-	SPI_InitStruct.SPI_NSS = SPI_NSS_Hard; //sprzetowa obsluga linii NSS (CS)
-	SPI_InitStruct.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_256; //prescaler szybkosci tansmisji  36MHz/256=140.625kHz
-	SPI_InitStruct.SPI_FirstBit = SPI_FirstBit_MSB; //pierwszy bit w danych najbardziej znaczacy
-	SPI_InitStruct.SPI_CRCPolynomial = 7; //stopien wielomianu do obliczania sumy CRC
-	SPI_Init(SPI2, &SPI_InitStruct); //inicjalizacja SPI
-	SPI_SSOutputCmd(SPI2, ENABLE);
-
-	SPI_Cmd(SPI2, ENABLE); // Wlacz SPI2
 
 }
 
@@ -143,6 +118,7 @@ void GPIO_Conf(void) {
 
 
 
+
 }
 
 void NVIC_Conf(void) {
@@ -165,7 +141,12 @@ void NVIC_Conf(void) {
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 
-
+	//konfiguracja przerwań pochodzących od RTC Alarm
+	NVIC_InitStructure.NVIC_IRQChannel = RTCAlarm_IRQn;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&NVIC_InitStructure);
 
 //	NVIC_InitTypeDef NVIC_config;
 //	NVIC_config.NVIC_IRQChannel = ADC1_2_IRQn;
@@ -261,16 +242,4 @@ void USART_Configuration(void) {
  * @param  ...
  * @retval ...
  */
-//int fputc(int ch, FILE *f)
-//    {
-//    /* Place your implementation of fputc here */
-//    /* e.g. write a character to the USART */
-//    USART_SendData(EVAL_COM1, (u8) ch);
-//
-//    /* Loop until the end of transmission */
-//    while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TXE) == RESET)
-//	{
-//	}
-//
-//    return ch;
-//    }
+

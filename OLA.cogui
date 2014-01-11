@@ -20,71 +20,64 @@
 <part id="7"/>
 <part id="8"/>
 <part id="9"/>
-<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" title="main.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3698" selectionTopPixel="1574"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="803" selectionTopPixel="2745"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.c" partName="init_board.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/init_board.c" title="init_board.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/init_board.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.c" partName="init_board.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.c" title="init_board.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/init_board.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1526" selectionTopPixel="90"/>
+<editorState selectionHorizontalPixel="0" selectionLength="36" selectionOffset="2205" selectionTopPixel="1059"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="LCD.c" partName="LCD.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/GLCD/LCD.c" title="LCD.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/GLCD/LCD.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/GLCD/LCD.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2734" selectionTopPixel="1170"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.h" partName="init_board.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/init_board.h" title="init_board.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/init_board.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/init_board.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="305" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm3210c_eval_lcd.h" partName="stm3210c_eval_lcd.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm3210c_eval_lcd.h" title="stm3210c_eval_lcd.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm3210c_eval_lcd.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/stm3210c_eval_lcd.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8264" selectionTopPixel="4362"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.c" partName="RTC.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/RTC.c" title="RTC.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/RTC.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.c" partName="RTC.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.c" title="RTC.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/RTC.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2669" selectionTopPixel="782"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="143" selectionTopPixel="129"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" partName="stm32f10x_it.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm32f10x_it.c" title="stm32f10x_it.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm32f10x_it.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" partName="stm32f10x_it.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" title="stm32f10x_it.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/stm32f10x_it.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5972" selectionTopPixel="144"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8749" selectionTopPixel="4479"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.h" partName="stm32f10x_it.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm32f10x_it.h" title="stm32f10x_it.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/stm32f10x_it.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/stm32f10x_it.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1802" selectionTopPixel="150"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.h" partName="init_board.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.h" title="init_board.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/init_board.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="236" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_cl.c" partName="startup_stm32f10x_cl.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/cmsis_boot/startup/startup_stm32f10x_cl.c" title="startup_stm32f10x_cl.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/cmsis_boot/startup/startup_stm32f10x_cl.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue.c" partName="queue.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/queue.c" title="queue.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/queue.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/FreeRTOS/Source/queue.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="47756" selectionTopPixel="20070"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_cl.c" partName="startup_stm32f10x_cl.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/cmsis_boot/startup/startup_stm32f10x_cl.c" title="startup_stm32f10x_cl.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/cmsis_boot/startup/startup_stm32f10x_cl.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/startup_stm32f10x_cl.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12373" selectionTopPixel="3180"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.h" partName="RTC.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/RTC.h" title="RTC.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/RTC.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/RTC.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="242" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/main.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="562" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="touch_panel.c" partName="touch_panel.c" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/touch_panel.c" title="touch_panel.c" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/touch_panel.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/touch_panel.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="978" selectionTopPixel="270"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue.h" partName="queue.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/include/queue.h" title="queue.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/include/queue.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/FreeRTOS/Source/include/queue.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="83" selectionOffset="3655" selectionTopPixel="870"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.h" partName="RTC.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.h" title="RTC.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/RTC.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="220" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="19">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/OLA"/>
 <element path="/OLA/cmsis"/>
 <element path="/OLA/FreeRTOS"/>
+<element path="/OLA/GLCD"/>
 <element path="/OLA/src"/>
 <element path="/OLA/stm_lib"/>
 <element path="/OLA/stm_lib/inc"/>
 <element path="/OLA/stm_lib/src"/>
 </expanded>
-<selection>
-<element path="/OLA/src/touch_panel.c"/>
-</selection>
 </viewState>
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
@@ -92,8 +85,8 @@
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-<view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
@@ -154,7 +147,7 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1aebd29" ratio="0.59949934" ratioLeft="479" ratioRight="320" relationship="4" relative="org.eclipse.ui.internal.ViewStack@18caa36">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1aebd29" ratio="0.7784731" ratioLeft="622" ratioRight="177" relationship="4" relative="org.eclipse.ui.internal.ViewStack@18caa36">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
@@ -229,8 +222,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.codebugger.trace.ui.traceview"/>
@@ -256,7 +249,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1c12be5" ratio="0.6995013" ratioLeft="561" ratioRight="241" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1936bc3">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
@@ -299,163 +292,160 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/init_board.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/GLCD/LCD.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/RTC.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/stm32f10x_it.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/startup_stm32f10x_cl.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/RTC.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/main.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/RTC.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/touch_panel.c"/>
 </editors>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6047" y="0"/>
-</item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6562" y="0"/>
-</item>
-<item historyLabel="LCD.c" index="2">
+<item historyLabel="stm32f10x_it.c" index="1">
 <position/>
 </item>
-<item historyLabel="startup_stm32f10x_cl.c" index="5">
-<position info="not_deleted" x="12373" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3698" y="0"/>
+<position info="not_deleted" x="5138" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6562" y="0"/>
-</item>
-<item historyLabel="stm32f10x_it.c" index="4">
+<item historyLabel="stm32f10x_it.c" index="1">
 <position/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="410" y="23"/>
-</item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position/>
-</item>
-<item historyLabel="startup_stm32f10x_cl.c" index="5">
-<position info="not_deleted" x="12373" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="9974" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3698" y="0"/>
+<position info="not_deleted" x="5138" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6349" y="41"/>
 </item>
-<item historyLabel="startup_stm32f10x_cl.c" index="5">
-<position info="not_deleted" x="12373" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="210" y="11"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3698" y="0"/>
+<position info="not_deleted" x="5125" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7757" y="0"/>
 </item>
-<item historyLabel="init_board.c" index="1">
-<position info="not_deleted" x="1526" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="210" y="11"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="2763" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7757" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="410" y="23"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5125" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6729" y="0"/>
+<item historyLabel="RTC.c" index="2">
+<position info="not_deleted" x="143" y="26"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="410" y="23"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7757" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2240" y="19"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="210" y="11"/>
 </item>
-<item historyLabel="RTC.h" index="6">
-<position info="not_deleted" x="242" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7757" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6562" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="8629" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="6">
-<position info="not_deleted" x="242" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6549" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6043" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="210" y="11"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6549" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="5972" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="210" y="11"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2174" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5125" y="0"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="2763" y="0"/>
+<item historyLabel="RTC.c" index="2">
+<position info="not_deleted" x="143" y="26"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6041" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6549" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="6">
-<position info="not_deleted" x="167" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2313" y="69"/>
+<item historyLabel="main.h" index="3">
+<position info="not_deleted" x="560" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="317" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6549" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="6">
-<position info="not_deleted" x="167" y="0"/>
+<item historyLabel="main.h" index="3">
+<position info="not_deleted" x="562" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2689" y="12"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="803" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="6241" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7747" y="18"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2689" y="12"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="8789" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="4">
-<position info="not_deleted" x="5972" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7760" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2689" y="12"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="803" y="0"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="2763" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2245" y="14"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="7760" y="0"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="645" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="9610" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="6">
-<position info="not_deleted" x="242" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6349" y="43"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="645" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="251" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="1033" y="18"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2245" y="14"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6349" y="43"/>
 </item>
-<item historyLabel="LCD.c" index="2">
-<position info="not_deleted" x="2734" y="0"/>
+<item historyLabel="RTC.h" index="4">
+<position info="not_deleted" x="220" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="3">
-<position info="not_deleted" x="2669" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6766" y="0"/>
 </item>
-<item active="true" historyLabel="touch_panel.c" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="803" y="0"/>
+</item>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="6766" y="0"/>
+</item>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="8151" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="803" y="0"/>
+</item>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="8151" y="0"/>
+</item>
+<item historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="9907" y="0"/>
+</item>
+<item active="true" historyLabel="stm32f10x_it.c" index="1">
+<position info="not_deleted" x="8123" y="79"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -464,47 +454,47 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="touch_panel.c" tooltip="OLA/src/touch_panel.c">
-<persistable path="/OLA/src/touch_panel.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="funkcje.c" tooltip="OLA/src/funkcje.c">
+<persistable path="/OLA/src/funkcje.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.h" tooltip="OLA/src/RTC.h">
 <persistable path="/OLA/src/RTC.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GLCD_SPI_STM32.c" tooltip="OLA/GLCD/GLCD_SPI_STM32.c">
-<persistable path="/OLA/GLCD/GLCD_SPI_STM32.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="queue.h" tooltip="OLA/FreeRTOS/Source/include/queue.h">
+<persistable path="/OLA/FreeRTOS/Source/include/queue.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.h" tooltip="OLA/src/stm32f10x_it.h">
-<persistable path="/OLA/src/stm32f10x_it.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" tooltip="OLA/src/stm32f10x_it.c">
-<persistable path="/OLA/src/stm32f10x_it.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rtc.c" tooltip="OLA/stm_lib/src/stm32f10x_rtc.c">
-<persistable path="/OLA/stm_lib/src/stm32f10x_rtc.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.c" tooltip="OLA/stm_lib/src/stm32f10x_rcc.c">
-<persistable path="/OLA/stm_lib/src/stm32f10x_rcc.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.c" tooltip="OLA/src/RTC.c">
-<persistable path="/OLA/src/RTC.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="OLA/src/main.h">
+<persistable path="/OLA/src/main.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_cl.c" tooltip="OLA/src/startup_stm32f10x_cl.c">
 <persistable path="/OLA/src/startup_stm32f10x_cl.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm3210c_eval_lcd.h" tooltip="OLA/src/stm3210c_eval_lcd.h">
-<persistable path="/OLA/src/stm3210c_eval_lcd.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="queue.c" tooltip="OLA/FreeRTOS/Source/queue.c">
+<persistable path="/OLA/FreeRTOS/Source/queue.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GLCD_SPI_STM32.c" tooltip="OLA/GLCD/GLCD_SPI_STM32.c">
+<persistable path="/OLA/GLCD/GLCD_SPI_STM32.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LCD.h" tooltip="OLA/GLCD/LCD.h">
+<persistable path="/OLA/GLCD/LCD.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.h" tooltip="OLA/src/init_board.h">
 <persistable path="/OLA/src/init_board.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.c" tooltip="OLA/stm_lib/src/stm32f10x_adc.c">
-<persistable path="/OLA/stm_lib/src/stm32f10x_adc.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" tooltip="OLA/src/FreeRTOSConfig.h">
+<persistable path="/OLA/src/FreeRTOSConfig.h"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" tooltip="c:\program files (x86)\gnu tools arm embedded\4.7 2013q2\arm-none-eabi\include\stdio.h">
-<persistable uri="file:/c:/program%20files%20(x86)/gnu%20tools%20arm%20embedded/4.7%202013q2/arm-none-eabi/include/stdio.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" tooltip="OLA/src/stm32f10x_it.c">
+<persistable path="/OLA/src/stm32f10x_it.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LCD.c" tooltip="OLA/GLCD/LCD.c">
-<persistable path="/OLA/GLCD/LCD.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="projdefs.h" tooltip="OLA/FreeRTOS/Source/include/projdefs.h">
+<persistable path="/OLA/FreeRTOS/Source/include/projdefs.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_spi.h" tooltip="OLA/stm_lib/inc/stm32f10x_spi.h">
+<persistable path="/OLA/stm_lib/inc/stm32f10x_spi.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="touch_panel.c" tooltip="OLA/src/touch_panel.c">
+<persistable path="/OLA/src/touch_panel.c"/>
 </file>
 </mruList>
 </workbench>

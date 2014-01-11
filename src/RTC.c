@@ -10,46 +10,13 @@
 #include "stm32f10x_pwr.h"
 #include "stm32f10x_bkp.h"
 #include "RTC.h"
+#include <string.h>
+#include <stdio.h>
 
 #define RTCClockOutput_Enable  /* RTC Clock/64 is output on tamper pin(PC.13) */
 
 void RTC_Configuration(void) {
-//  /* Allow access to BKP Domain */
-//  PWR_BackupAccessCmd(ENABLE);
-//
-//  /* Reset Backup Domain */
-//  BKP_DeInit();
-//
-//  /* Enable LSE */
-//  RCC_LSEConfig(RCC_LSE_ON);
-//  /* Wait till LSE is ready */
-//  while (RCC_GetFlagStatus(RCC_FLAG_LSERDY) == RESET)
-//  {}
-//
-//  /* Select LSE as RTC Clock Source */
-//  RCC_RTCCLKConfig(RCC_RTCCLKSource_LSE);
-//
-//  /* Enable RTC Clock */
-//  RCC_RTCCLKCmd(ENABLE);
-//
-//  /* Wait for RTC registers synchronization */
-//  RTC_WaitForSynchro();
-//
-//  /* Wait until last write operation on RTC registers has finished */
-//  RTC_WaitForLastTask();
-//
-//  /* Enable the RTC Second */
-//  RTC_ITConfig(RTC_IT_SEC, ENABLE);
-//
-//  /* Wait until last write operation on RTC registers has finished */
-//  RTC_WaitForLastTask();
-//
-//  /* Set RTC prescaler: set RTC period to 1sec */
-//  RTC_SetPrescaler(32767); /* RTC period = RTCCLK/RTC_PR = (32.768 KHz)/(32767+1) */
-//
-//  /* Wait until last write operation on RTC registers has finished */
-//  RTC_WaitForLastTask();
-//  RCC_ClearFlag();
+
 	PWR_BackupAccessCmd(ENABLE); //wlaczenie rejestrow domeny Backup
 	RCC_LSEConfig(RCC_LSE_ON);
 	while (RCC_GetFlagStatus(RCC_FLAG_LSERDY) == RESET)
@@ -63,18 +30,17 @@ void RTC_Configuration(void) {
 	RTC_ITConfig(RTC_IT_SEC, ENABLE); // Wlacz przerwanie "sekundnika" RTC
 	RTC_WaitForLastTask();
 	RCC_ClearFlag();
+
+	//RTC_SetAlarm();
+
+//	  /* Wait until last write operation on RTC registers has finished */
+//	  RTC_WaitForLastTask();
+//	  /* Change the current time */
+//	  RTC_SetCounter(84540);
+//	  /* Wait until last write operation on RTC registers has finished */
+//	  RTC_WaitForLastTask();
+
+
+
 }
 
-
-unsigned char stanRTCTekst[17] = { "null" };
-void get_time(void) {
-
-	unsigned long int godziny, minuty, sekundy;
-
-	sekundy = stanRTC % 60; //liczba sekund od ostatniej pelnej minuty
-	minuty = (long int) (stanRTC) / 60; //dzielenie calkowite, "usuniecie" sekund, czas pracy w samych minutach
-	godziny = (long int) (minuty) / 60; //dzielenie calkowite, "usuniecie" minut, czas pracy w samych godzinach
-	minuty = minuty % 60; //liczba minut od ostatniej pelnej godziny
-
-	sprintf((char *) stanRTCTekst, "Zegar: %3i:%02i:%02i", godziny, minuty, sekundy);
-}

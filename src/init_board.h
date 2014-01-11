@@ -7,7 +7,7 @@
 void prvSetupHardware ( void );
 void GPIO_Conf(void);
 void ADC_Conf(void);
-void SPI_Conf(void);
+//void SPI_Conf(void);
 void RCC_Conf(void);
 void NVIC_Conf(void);
 

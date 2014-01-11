@@ -3,7 +3,8 @@
 void PWR_BackupAccessCmd(FunctionalState NewState);
 void BKP_DeInit(void);
 void RTC_Configuration(void);
-void get_time(void);
-extern volatile unsigned long int stanRTC;
-extern unsigned char stanRTCTekst[17];
+extern volatile uint8_t AlarmStatus;
+extern volatile unsigned long int StanAlarm ;
+
+#define ALARM_5MIN 300
 #endif
