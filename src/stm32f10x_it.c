@@ -233,6 +233,8 @@ volatile unsigned long int StanAlarm = 0;
 volatile unsigned long int godzinyAlarm, minutyAlarm, sekundyAlarm;
 
 int8_t stanRTCTekst[GLCD_TEXT_SIZE] = { "null" };
+int8_t stanRTCAlarmTekst[GLCD_TEXT_SIZE] = { "null" };
+int8_t stanRTCAlarmKoniecTekst[GLCD_TEXT_SIZE] = { "null" };
 volatile uint8_t AlarmStatus = 0;
 void RTC_IRQHandler(void) {
 
@@ -253,7 +255,7 @@ void RTC_IRQHandler(void) {
 		godziny = (long unsigned int) (minuty) / 60; //dzielenie calkowite, "usuniecie" minut, czas pracy w samych godzinach
 		minuty = minuty % 60; //liczba minut od ostatniej pelnej godziny
 
-		sprintf((char *) stanRTCTekst, "Zegar: %3lu:%02lu:%02lu", godziny, minuty, sekundy);
+		sprintf((char *) stanRTCTekst, "Zegar:%2lu:%02lu:%02lu", godziny, minuty, sekundy);
 
 		xMessageToSend.Mode = Text;
 		xMessageToSend.CoordinatesX = 1;
@@ -271,13 +273,13 @@ void RTC_IRQHandler(void) {
 			minutyAlarm = (long unsigned int) (StanAlarm) / 60; //dzielenie calkowite, "usuniecie" sekund, czas pracy w samych minutach
 			godzinyAlarm = (long unsigned int) (minutyAlarm) / 60; //dzielenie calkowite, "usuniecie" minut, czas pracy w samych godzinach
 			minutyAlarm = minutyAlarm % 60; //liczba minut od ostatniej pelnej godziny
-			sprintf((char *) stanRTCTekst, "Timer: %3lu:%02lu:%02lu", godzinyAlarm, minutyAlarm, sekundyAlarm);
+			sprintf((char *) stanRTCAlarmTekst, "Timer:%2lu:%02lu:%02lu", godzinyAlarm, minutyAlarm, sekundyAlarm);
 
 			xMessageToSendAlarm.Mode = Text;
 			xMessageToSendAlarm.CoordinatesX = 2;
 			xMessageToSendAlarm.CoordinatesY = 0;
 
-			xMessageToSendAlarm.Text = &stanRTCTekst;
+			xMessageToSendAlarm.Text = &stanRTCAlarmTekst;
 
 			if (!(xQueueSendToBackFromISR(xGLCDQueue, &xMessageToSendAlarm, &xHigherPriorityTaskWoken))) {
 				printf("blad kolejki\n");
@@ -315,13 +317,13 @@ void RTCAlarm_IRQHandler(void) {
 
 		AlarmStatus = 0;
 
-		sprintf((char *) stanRTCTekst, "Timer: 0:00:00");
+		sprintf((char *) stanRTCAlarmKoniecTekst, "Timer: 0:00:00");
 
 		xMessageToSendAlarm.Mode = Text;
 		xMessageToSendAlarm.CoordinatesX = 2;
 		xMessageToSendAlarm.CoordinatesY = 0;
 
-		xMessageToSendAlarm.Text = &stanRTCTekst;
+		xMessageToSendAlarm.Text = &stanRTCAlarmKoniecTekst;
 
 		if (!(xQueueSendToBackFromISR(xGLCDQueue, &xMessageToSendAlarm, &xHigherPriorityTaskWoken))) {
 			printf("blad kolejki\n");

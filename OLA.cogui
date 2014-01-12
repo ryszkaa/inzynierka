@@ -17,52 +17,37 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" title="main.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" title="main.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="803" selectionTopPixel="2745"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2103" selectionTopPixel="1228"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.c" partName="init_board.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.c" title="init_board.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/init_board.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="36" selectionOffset="2205" selectionTopPixel="1059"/>
+<editorState selectionHorizontalPixel="0" selectionLength="36" selectionOffset="2205" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.c" partName="RTC.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.c" title="RTC.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/RTC.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="143" selectionTopPixel="129"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1038" selectionTopPixel="137"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" partName="stm32f10x_it.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" title="stm32f10x_it.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" partName="stm32f10x_it.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" title="stm32f10x_it.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/stm32f10x_it.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/stm32f10x_it.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8749" selectionTopPixel="4479"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="9793" selectionTopPixel="4517"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_board.h" partName="init_board.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.h" title="init_board.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/init_board.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/init_board.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="236" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue.c" partName="queue.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/queue.c" title="queue.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/queue.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/FreeRTOS/Source/queue.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="47756" selectionTopPixel="20070"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_cl.c" partName="startup_stm32f10x_cl.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/cmsis_boot/startup/startup_stm32f10x_cl.c" title="startup_stm32f10x_cl.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/cmsis_boot/startup/startup_stm32f10x_cl.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/startup_stm32f10x_cl.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12373" selectionTopPixel="3180"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/inz_wysw/src/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="562" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="594" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue.h" partName="queue.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/include/queue.h" title="queue.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/FreeRTOS/Source/include/queue.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/FreeRTOS/Source/include/queue.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="83" selectionOffset="3655" selectionTopPixel="870"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RTC.h" partName="RTC.h" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.h" title="RTC.h" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/src/RTC.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/src/RTC.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="220" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="button_on.c" partName="button_on.c" path="C:/Users/Aleksandra/Documents/GitHub/inzynierka/images/button_on.c" title="button_on.c" tooltip="C:/Users/Aleksandra/Documents/GitHub/inzynierka/images/button_on.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OLA/images/button_on.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="40470" selectionTopPixel="6820"/>
 </editor>
 </editors>
 <views>
@@ -70,14 +55,17 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/OLA"/>
-<element path="/OLA/cmsis"/>
 <element path="/OLA/FreeRTOS"/>
 <element path="/OLA/GLCD"/>
+<element path="/OLA/images"/>
 <element path="/OLA/src"/>
 <element path="/OLA/stm_lib"/>
 <element path="/OLA/stm_lib/inc"/>
 <element path="/OLA/stm_lib/src"/>
 </expanded>
+<selection>
+<element path="/OLA/images/button_on.c"/>
+</selection>
 </viewState>
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
@@ -130,7 +118,6 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <layout>
@@ -147,13 +134,12 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1aebd29" ratio="0.7784731" ratioLeft="622" ratioRight="177" relationship="4" relative="org.eclipse.ui.internal.ViewStack@18caa36">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1aebd29" ratio="0.7684606" ratioLeft="614" ratioRight="185" relationship="4" relative="org.eclipse.ui.internal.ViewStack@18caa36">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -232,51 +218,36 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1936bc3">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@1936bc3">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1936bc3">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1936bc3">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c12be5" ratio="0.6995013" ratioLeft="561" ratioRight="241" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1936bc3">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c12be5" ratio="0.6995013" ratioLeft="561" ratioRight="241" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1936bc3">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@192152c" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c12be5">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@192152c" ratio="0.5" ratioLeft="716" ratioRight="716" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c12be5">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@b15326" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1936bc3">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b15326" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1936bc3">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -291,161 +262,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/stm32f10x_it.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/RTC.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/init_board.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/images/button_on.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/images/off.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/images/on_off_button.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/main.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/RTC.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OLA/src/main.c"/>
 </editors>
-<item historyLabel="stm32f10x_it.c" index="1">
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9987" y="0"/>
+</item>
+<item historyLabel="button_on.c" index="3">
 <position/>
 </item>
-<item historyLabel="RTC.h" index="4">
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9987" y="0"/>
+</item>
+<item historyLabel="off.c" index="4">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5138" y="0"/>
+<item historyLabel="on_off_button.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
+<item historyLabel="off.c" index="4">
 <position/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="9974" y="0"/>
+<item historyLabel="on_off_button.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5138" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9987" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6349" y="41"/>
+<item historyLabel="main.h" index="6">
+<position info="not_deleted" x="594" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="210" y="11"/>
+<item historyLabel="off.c" index="4">
+<position info="not_deleted" x="5" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5125" y="0"/>
+<item historyLabel="main.h" index="6">
+<position info="not_deleted" x="594" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7757" y="0"/>
+<item historyLabel="button_on.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="210" y="11"/>
+<item historyLabel="off.c" index="4">
+<position info="not_deleted" x="5" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7757" y="0"/>
+<item historyLabel="button_on.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5125" y="0"/>
+<item historyLabel="main.h" index="6">
+<position info="not_deleted" x="594" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="2">
-<position info="not_deleted" x="143" y="26"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="5254" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7757" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="210" y="11"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="8365" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7757" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1092" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="8629" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="8365" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6549" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="210" y="11"/>
+<item historyLabel="init_board.c" index="2">
+<position info="not_deleted" x="2205" y="36"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6549" y="0"/>
+<item historyLabel="main.c" index="7">
+<position/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="210" y="11"/>
+<item historyLabel="init_board.c" index="2">
+<position info="not_deleted" x="2205" y="36"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5125" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="RTC.c" index="2">
-<position info="not_deleted" x="143" y="26"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="7652" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6549" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="10122" y="0"/>
 </item>
-<item historyLabel="main.h" index="3">
-<position info="not_deleted" x="560" y="0"/>
+<item historyLabel="main.c" index="7">
+<position/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6549" y="0"/>
+<item historyLabel="init_board.c" index="2">
+<position info="not_deleted" x="2205" y="36"/>
 </item>
-<item historyLabel="main.h" index="3">
-<position info="not_deleted" x="562" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="4284" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="803" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="8755" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7747" y="18"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1672" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="8789" y="0"/>
+<item historyLabel="button_on.c" index="3">
+<position info="not_deleted" x="40470" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7760" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="803" y="0"/>
+<item historyLabel="init_board.c" index="2">
+<position info="not_deleted" x="2205" y="36"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1672" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="7760" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="9610" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="6333" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6349" y="43"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1980" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="174" y="0"/>
+<item historyLabel="init_board.c" index="2">
+<position info="not_deleted" x="2205" y="36"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="1033" y="18"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="8276" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6349" y="43"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="6333" y="0"/>
 </item>
-<item historyLabel="RTC.h" index="4">
-<position info="not_deleted" x="220" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="8133" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6766" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9789" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="803" y="0"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1376" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="6766" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9789" y="0"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="8151" y="0"/>
+<item historyLabel="RTC.c" index="1">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="803" y="0"/>
+<item historyLabel="stm32f10x_it.c" index="0">
+<position info="not_deleted" x="9793" y="13"/>
 </item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="8151" y="0"/>
-</item>
-<item historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="9907" y="0"/>
-</item>
-<item active="true" historyLabel="stm32f10x_it.c" index="1">
-<position info="not_deleted" x="8123" y="79"/>
+<item active="true" historyLabel="main.c" index="7">
+<position info="not_deleted" x="1376" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -454,6 +428,15 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="button_on.c" tooltip="OLA/images/button_on.c">
+<persistable path="/OLA/images/button_on.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="off.c" tooltip="OLA/images/off.c">
+<persistable path="/OLA/images/off.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="on_off_button.c" tooltip="OLA/images/on_off_button.c">
+<persistable path="/OLA/images/on_off_button.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="funkcje.c" tooltip="OLA/src/funkcje.c">
 <persistable path="/OLA/src/funkcje.c"/>
 </file>
@@ -489,12 +472,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="projdefs.h" tooltip="OLA/FreeRTOS/Source/include/projdefs.h">
 <persistable path="/OLA/FreeRTOS/Source/include/projdefs.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_spi.h" tooltip="OLA/stm_lib/inc/stm32f10x_spi.h">
-<persistable path="/OLA/stm_lib/inc/stm32f10x_spi.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="touch_panel.c" tooltip="OLA/src/touch_panel.c">
-<persistable path="/OLA/src/touch_panel.c"/>
 </file>
 </mruList>
 </workbench>

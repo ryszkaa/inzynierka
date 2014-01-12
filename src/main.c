@@ -53,7 +53,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 	GLCD_SetTextColor(Szary);
 
 	GLCD_DisplayString(1, 0, "Zegar : ");
-	GLCD_DisplayString(2, 0, "Timer: ");
+	GLCD_DisplayString(2, 0, "imer: 0:00:00");
 
 	GLCD_DisplayString(5, 0, "Owietlenie:");
 	GLCD_DisplayString(6, 0, "Stan pracy:");
@@ -62,7 +62,8 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 	GLCD_Bmp(35, 180, 64, 30, one_off); //1
 	GLCD_Bmp(125, 180, 64, 30, two_off); //2
 	GLCD_Bmp(215, 180, 64, 30, three_off); //3
-	GLCD_Bmp(195, 120, 60, 25, off); //off
+	GLCD_Bmp(205, 120, 60, 25, off); //off
+	GLCD_Bmp(245, 45, 58, 22, on_timer); //on_timer
 
 	for (;;) {
 
@@ -73,6 +74,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 				GLCD_DisplayString(xMessageToSend.CoordinatesX, xMessageToSend.CoordinatesY, xMessageToSend.Text);
 				break;
 			case Touch:
+				printf("x= %d ,y= %d\n", tch_x, tch_y);
 				tch_x = xMessageToSend.CoordinatesX;
 				tch_y = xMessageToSend.CoordinatesY;
 				tch_on = xMessageToSend.CoordinatesZ;
@@ -88,7 +90,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 							GLCD_Bmp(35, 180, 64, 30, one_on); //1
 							GLCD_Bmp(125, 180, 64, 30, two_off); //2
 							GLCD_Bmp(215, 180, 64, 30, three_off); //3
-							GLCD_Bmp(195, 120, 60, 25, off); //off
+							GLCD_Bmp(205, 120, 60, 25, off); //off
 
 							STM_EVAL_LEDOn(LED1);
 							STM_EVAL_LEDOff(LED2);
@@ -114,7 +116,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 							GLCD_Bmp(35, 180, 64, 30, one_off); //1
 							GLCD_Bmp(125, 180, 64, 30, two_on); //2
 							GLCD_Bmp(215, 180, 64, 30, three_off); //3
-							GLCD_Bmp(195, 120, 60, 25, off); //off
+							GLCD_Bmp(205, 120, 60, 25, off); //off
 
 							STM_EVAL_LEDOff(LED1);
 							STM_EVAL_LEDOn(LED2);
@@ -140,7 +142,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 							GLCD_Bmp(35, 180, 64, 30, one_off); //1
 							GLCD_Bmp(125, 180, 64, 30, two_off); //2
 							GLCD_Bmp(215, 180, 64, 30, three_on); //3
-							GLCD_Bmp(195, 120, 60, 25, off); //off
+							GLCD_Bmp(205, 120, 60, 25, off); //off
 
 							STM_EVAL_LEDOff(LED1);
 							STM_EVAL_LEDOff(LED2);
@@ -167,7 +169,7 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 							GLCD_Bmp(35, 180, 64, 30, one_off); //1
 							GLCD_Bmp(125, 180, 64, 30, two_off); //2
 							GLCD_Bmp(215, 180, 64, 30, three_off); //3
-							GLCD_Bmp(195, 120, 60, 25, off); //off
+							GLCD_Bmp(205, 120, 60, 25, off); //off
 
 							STM_EVAL_LEDOff(LED1);
 							STM_EVAL_LEDOff(LED2);
@@ -185,10 +187,11 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 
 				if ((tch_x) && (tch_y)) {
 
-					if ((tch_x >= 2100) && (tch_x <= 2500) && (tch_y >= 2600) && (tch_y <= 3000)) //!!!
+					if ((tch_x >= 900) && (tch_x <= 1300) && (tch_y >= 3100) && (tch_y <= 3500)) //!!!
 							{
 
 						if (tch_on) {
+
 							EXTI_InitTypeDef EXTI_InitStructure;
 							//konfiguracja przerwań pochodzących od RTC Alarm
 							EXTI_ClearITPendingBit(EXTI_Line17);
@@ -204,12 +207,11 @@ void GLCDTask(void * pvParameters) { //* pvParameters
 
 							RTC_WaitForLastTask();
 							//ustawienie rejestru alarmu RTC na 12h00m00s
-							RTC_SetAlarm((RTC_GetCounter()+ALARM_5MIN) % (86400 - 1));
+							RTC_SetAlarm((RTC_GetCounter() + ALARM_5MIN) % (86400 - 1));
 							//odczekanie na zakończenie operacji na RTC
 							RTC_WaitForLastTask();
-							AlarmStatus =1;
-							StanAlarm =0;
-
+							AlarmStatus = 1;
+							StanAlarm = 0;
 
 						}
 					}
@@ -286,7 +288,7 @@ void TempHumidSensorTask(void * pvParameters) {
 		temperatura_temp = tc77_temperatura * 6;
 
 		sprintf(temperatura, "Temperatura: %d,%01d*C", temperatura_temp / 100, (temperatura_temp % 100) / 10);
-		printf("poieram temp %s \n", temperatura);
+//		printf("poieram temp %s \n", temperatura);
 
 		xMessageToSend.Mode = Text;
 		xMessageToSend.CoordinatesX = 3;
@@ -318,8 +320,8 @@ void TempHumidSensorTask(void * pvParameters) {
 		wartoscADC1V = ((wartoscADC1 * 100));
 		wartoscADC1V >>= 12;
 
-		sprintf((char *) wartoscADC1VTekst, "Wiglotnosc: %lu%%", wartoscADC1V); //Przekszta³cenie wyniku na tekst, dzielenie calkowite wyzancza wartosc w V, dzielenie modulo - czesc po przecinku
-		printf("wilgotnosc: %u \n", ADC_GetConversionValue(ADC1));
+		sprintf((char *) wartoscADC1VTekst, "Wiglotnosc:  %lu%%", wartoscADC1V); //Przekszta³cenie wyniku na tekst, dzielenie calkowite wyzancza wartosc w V, dzielenie modulo - czesc po przecinku
+//		printf("wilgotnosc: %u \n", ADC_GetConversionValue(ADC1));
 
 		xMessageToSend.Mode = Text;
 		xMessageToSend.CoordinatesX = 4;
